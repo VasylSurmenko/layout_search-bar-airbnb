@@ -3,6 +3,7 @@
   display: block;
   width: 100%;
   padding: 20px;
+  font-weight: 400px;
 }
 
 .big-search-bar {
@@ -17,8 +18,12 @@
   margin-top: 20px;
 }
 
-.field-area::placeholder {
+input::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 /* .field-area:hover {
