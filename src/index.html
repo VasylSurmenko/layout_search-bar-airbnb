@@ -12,13 +12,13 @@
   </head>
   <body>
     <form
-      class="big-search-bar"
+      class="form-field"
       action="https://github.com/mate-academy/layout_search-bar-airbnb/blob/master/checklist.md"
       method="post"
       data-qa="big">
       <div>
         <input
-          class="field-area"
+          class="searchbar searchbar--big"
           type="search"
           placeholder="Try &quot Los Angeles &quot"
           data-qa="keypress"
@@ -26,15 +26,18 @@
       </div>
     </form>
     <form
-      class="small-search-bar"
+      class="form-field"
       action="https://github.com/mate-academy/layout_search-bar-airbnb/blob/master/checklist.md"
       method="post"
       data-qa="small">
-      <input
-        class="field-area"
-        type="search"
-        placeholder="Try &quot Los Angeles &quot"
-      >
+      <div>
+        <img src="images/Search.svg" alt="search">
+        <input
+          class="searchbar searchbar--small"
+          type="search"
+          placeholder="Try &quot Los Angeles &quot"
+        >
+      </div>
     </form>
   </body>
 </html>
